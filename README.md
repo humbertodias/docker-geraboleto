@@ -13,7 +13,7 @@ Supported banks by [Stella Caelum](http://stella.caelum.com.br):
 # Run
 
 ```
-make run
+docker run -p 8080:8080 hldtux/geraboleto
 ```
 
 # Browser
