@@ -64,3 +64,8 @@ or with Docker
 make docker-build
 make docker-run
 ```
+
+# Ref
+
+* [speeding-up-maven-docker-builds](http://whitfin.io/speeding-up-maven-docker-builds/)
+* [how-to-reduce-jvm-docker-image-size](https://blog.wolt.com/engineering/2022/05/13/how-to-reduce-jvm-docker-image-size/)
