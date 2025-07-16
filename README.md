@@ -12,7 +12,7 @@ Supported banks by [Stella Caelum](http://stella.caelum.com.br):
 
 # Run
 
-```
+```sh
 docker run -p 8080:8080 hldtux/geraboleto
 ```
 
@@ -28,7 +28,7 @@ http://localhost:8080
 
 # Using terminal
 
-```
+```sh
 curl "http://localhost:8080/geraboleto" \
 -H "Content-Type: application/x-www-form-urlencoded; charset=utf-8" \
 -d numeroDoBanco=237 \
@@ -60,7 +60,7 @@ curl "http://localhost:8080/geraboleto" \
 
 or with Docker
 
-```
+```sh
 make docker-build
 make docker-run
 ```
